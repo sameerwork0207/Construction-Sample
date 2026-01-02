@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Your Construction Construction</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <h1>Your Construction Construction</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="projects.html">PROJECTS</a></li>
+                <li><a href="contact.html" class="active">CONTACT</a></li>
+            </ul>
+            <div class="social-icons">
+                <a href="#" class="social-link">f</a>
+                <a href="#" class="social-link">t</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contact Hero -->
+    <section class="contact-hero">
+        <div class="contact-hero-content">
+            <h1>Get In Touch</h1>
+            <p>We'd love to hear from you</p>
+        </div>
+    </section>
+
+    <!-- Contact Information -->
+    <section class="contact-info-section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info-card">
+                    <div class="info-icon">📧</div>
+                    <h3>Email</h3>
+                    <p><a href="mailto:info@shreeganeshconstructions.com">info@shreeganeshconstructions.com</a></p>
+                </div>
+                <div class="contact-info-card">
+                    <div class="info-icon">📍</div>
+                    <h3>Location</h3>
+                    <p>Nashik, Maharashtra<br>India</p>
+                </div>
+                <div class="contact-info-card">
+                    <div class="info-icon">📱</div>
+                    <h3>Phone</h3>
+                    <p><a href="tel:+919876543210">+91 98765 43210</a><br><a href="tel:+919876543211">+91 98765 43211</a></p>
+                </div>
+                <div class="contact-info-card">
+                    <div class="info-icon">⏰</div>
+                    <h3>Business Hours</h3>
+                    <p>Monday - Friday: 9:00 AM - 6:00 PM<br>Saturday: 10:00 AM - 4:00 PM<br>Sunday: Closed</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="contact-form-section">
+        <div class="container">
+            <h2 class="section-title">Send us a Message</h2>
+            <form class="contact-form" onsubmit="handleSubmit(event)">
+                <div class="form-group">
+                    <label for="name">Full Name *</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject *</label>
+                    <input type="text" id="subject" name="subject" required>
+                </div>
+                <div class="form-group">
+                    <label for="project">Interested Project</label>
+                    <select id="project" name="project">
+                        <option>Select a project</option>
+                        <option>Genesis</option>
+                        <option>Your Construction Bliss</option>
+                        <option>Your Construction Imperial</option>
+                        <option>Your Construction Sapphire</option>
+                        <option>Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message *</label>
+                    <textarea id="message" name="message" rows="6" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+        <div class="container">
+            <h2 class="section-title">Visit Us</h2>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3745.6454632089207!2d73.79182812346915!3d19.98733818211606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdcb85b47e3e53b%3A0x9e8a8e8e8e8e8e8e!2sNashik%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1234567890" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h4>Help Desk</h4>
+                    <ul>
+                        <li><a href="#">Loan EMI Calculator</a></li>
+                        <li><a href="#">Area Converter Calculator</a></li>
+                        <li><a href="#">Buyers Guide</a></li>
+                        <li><a href="#">About Nashik City</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Projects</h4>
+                    <ul>
+                        <li><a href="#">Genesis</a></li>
+                        <li><a href="#">Your Construction Bliss</a></li>
+                        <li><a href="#">Your Construction Imperial</a></li>
+                        <li><a href="#">Your Construction Sapphire</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Main Links</h4>
+                    <ul>
+                        <li><a href="#">Home Page</a></li>
+                        <li><a href="#">About Your Construction Constructions</a></li>
+                        <li><a href="#">Enquiry Form</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Your Construction Constructions | All rights reserved</p>
+                <p>Designed by <span class="designer">LBM Infotech</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function handleSubmit(event) {
+            event.preventDefault();
+            alert('Thank you for your message! We will get back to you soon.');
+            document.querySelector('.contact-form').reset();
+        }
+    </script>
+</body>
+</html>

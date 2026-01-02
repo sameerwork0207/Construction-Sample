@@ -1,0 +1,132 @@
+========================================
+IMAGES REQUIRED FOR YOUR WEBSITE
+========================================
+
+Below is a complete list of images that need to be added to the "images/" folder for the website to display properly. Add these images to make your construction firm website fully functional.
+
+========================================
+REQUIRED IMAGES:
+========================================
+
+1. HERO/BANNER IMAGE
+   - Filename: hero-kitchen.jpg
+   - Location: images/hero-kitchen.jpg
+   - Size: 1200x600px (recommended)
+   - Type: Luxury interior, modern kitchen, office space, or premium building interior
+   - Used on: Home page (hero section)
+
+2. PROJECT IMAGES (4 images for ongoing/completed projects)
+   
+   a) Project 1 - Elite Towers
+      - Filename: project1.jpg
+      - Location: images/project1.jpg
+      - Size: 400x300px (recommended)
+      - Type: Modern residential building/apartment complex exterior
+      - Used on: Home page, Projects page (ongoing projects)
+   
+   b) Project 2 - Modern Heights
+      - Filename: project2.jpg
+      - Location: images/project2.jpg
+      - Size: 400x300px (recommended)
+      - Type: High-rise apartment building or modern residential tower
+      - Used on: Home page, Projects page (ongoing projects)
+   
+   c) Project 3 - Business Plaza
+      - Filename: project3.jpg
+      - Location: images/project3.jpg
+      - Size: 400x300px (recommended)
+      - Type: Commercial building, office complex, or mixed-use development
+      - Used on: Home page, Projects page (ongoing/completed projects)
+   
+   d) Project 4 - Green Valley Homes
+      - Filename: project4.jpg
+      - Location: images/project4.jpg
+      - Size: 400x300px (recommended)
+      - Type: Residential township, gated community, or eco-friendly homes
+      - Used on: Home page, Projects page (ongoing/completed projects)
+
+========================================
+TOTAL IMAGES NEEDED: 5
+========================================
+
+- 1 Hero banner image
+- 4 Project images
+
+========================================
+IMAGE SUGGESTIONS:
+========================================
+
+HERO IMAGE (hero-kitchen.jpg):
+Use one of these:
+✓ Luxury kitchen interior
+✓ Modern office space
+✓ Premium residential interior
+✓ Building lobby or common area
+✓ Architectural rendering of a building
+
+PROJECT IMAGES (project1-4.jpg):
+Use these types of images:
+✓ Modern apartment buildings
+✓ Residential towers/skyscrapers
+✓ Commercial office buildings
+✓ Mixed-use developments
+✓ Luxury residential complexes
+✓ Eco-friendly housing projects
+✓ Shopping centers/plazas
+✓ Gated communities
+
+========================================
+HOW TO ADD IMAGES:
+========================================
+
+1. Create a folder named "images" in the project root (if not already done)
+   
+2. Prepare your images:
+   - Recommended format: JPG (jpg)
+   - Resize to recommended dimensions
+   - Optimize for web (compress if large)
+
+3. Save images with exact filenames:
+   - hero-kitchen.jpg
+   - project1.jpg
+   - project2.jpg
+   - project3.jpg
+   - project4.jpg
+
+4. Place all images in the "images/" folder
+
+5. Refresh your browser to see the images on the website
+
+========================================
+IMAGE QUALITY TIPS:
+========================================
+
+- Use high-quality images (at least 72 DPI)
+- Ensure good lighting and clear visibility
+- Use professional photography or renderings
+- Maintain consistent style across all project images
+- Avoid images with watermarks or logos
+- Consider aspect ratios for better layout
+
+========================================
+CURRENT THEME:
+========================================
+
+Your website is now using a BLACK & WHITE theme with:
+- Black (#000000) accent color
+- Dark gray gradients
+- White backgrounds
+- Professional, modern look
+
+The images you add should complement this professional black and white theme.
+
+========================================
+QUESTIONS?
+========================================
+
+If you need to:
+- Change image filenames: Update in the HTML files (index.html, projects.html, etc.)
+- Add more projects: Duplicate project card sections and add new images
+- Change image sizes: Modify CSS width/height values in styles.css
+
+========================================

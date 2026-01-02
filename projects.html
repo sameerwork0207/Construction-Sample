@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Your Construction Construction</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <h1>Your Construction Construction</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="projects.html" class="active">PROJECTS</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+            <div class="social-icons">
+                <a href="#" class="social-link">f</a>
+                <a href="#" class="social-link">t</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Projects Hero -->
+    <section class="projects-hero">
+        <div class="projects-hero-content">
+            <h1>Our Projects</h1>
+            <p>Transforming Skylines, Building Dreams</p>
+        </div>
+    </section>
+
+    <!-- Projects Tabs -->
+    <section class="projects-section">
+        <div class="container">
+            <div class="tabs">
+                <button class="tab-button active" onclick="filterProjects('all')">All Projects</button>
+                <button class="tab-button" onclick="filterProjects('ongoing')">Ongoing</button>
+                <button class="tab-button" onclick="filterProjects('completed')">Completed</button>
+            </div>
+
+            <!-- Ongoing Projects -->
+            <div id="ongoing" class="project-category">
+                <h2 class="category-title">Ongoing Projects</h2>
+                <div class="projects-grid-large">
+                    <div class="project-card-large">
+                        <img src="images/project1.jpg" alt="Genesis">
+                        <div class="project-info">
+                            <h3>Genesis</h3>
+                            <p>Modern residential complex with premium amenities and sustainable design.</p>
+                            <span class="status-badge ongoing">Ongoing</span>
+                        </div>
+                    </div>
+                    <div class="project-card-large">
+                        <img src="images/project2.jpg" alt="Your Construction Bliss">
+                        <div class="project-info">
+                            <h3>Your Construction Bliss</h3>
+                            <p>Luxury apartments with world-class facilities and prime location.</p>
+                            <span class="status-badge ongoing">Ongoing</span>
+                        </div>
+                    </div>
+                    <div class="project-card-large">
+                        <img src="images/project3.jpg" alt="Your Construction Imperial">
+                        <div class="project-info">
+                            <h3>Your Construction Imperial</h3>
+                            <p>Commercial and residential mixed-use development project.</p>
+                            <span class="status-badge ongoing">Ongoing</span>
+                        </div>
+                    </div>
+                    <div class="project-card-large">
+                        <img src="images/project4.jpg" alt="Your Construction Sapphire">
+                        <div class="project-info">
+                            <h3>Your Construction Sapphire</h3>
+                            <p>Premium residential towers with panoramic city views.</p>
+                            <span class="status-badge ongoing">Ongoing</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Completed Projects -->
+            <div id="completed" class="project-category" style="display: none;">
+                <h2 class="category-title">Completed Projects</h2>
+                <div class="projects-grid-large">
+                    <div class="project-card-large">
+                        <img src="images/project1.jpg" alt="Heritage Plaza">
+                        <div class="project-info">
+                            <h3>Heritage Plaza</h3>
+                            <p>Commercial complex successfully completed in 2022.</p>
+                            <span class="status-badge completed">Completed</span>
+                        </div>
+                    </div>
+                    <div class="project-card-large">
+                        <img src="images/project2.jpg" alt="Sunrise Heights">
+                        <div class="project-info">
+                            <h3>Sunrise Heights</h3>
+                            <p>Residential community completed with 500+ happy families.</p>
+                            <span class="status-badge completed">Completed</span>
+                        </div>
+                    </div>
+                    <div class="project-card-large">
+                        <img src="images/project3.jpg" alt="Business Park">
+                        <div class="project-info">
+                            <h3>Business Park</h3>
+                            <p>Commercial office space completed and operational.</p>
+                            <span class="status-badge completed">Completed</span>
+                        </div>
+                    </div>
+                    <div class="project-card-large">
+                        <img src="images/project4.jpg" alt="Green Valley">
+                        <div class="project-info">
+                            <h3>Green Valley</h3>
+                            <p>Eco-friendly residential township successfully delivered.</p>
+                            <span class="status-badge completed">Completed</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Statistics -->
+    <section class="project-stats">
+        <div class="container">
+            <h2 class="section-title">Project Statistics</h2>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <h3>50+</h3>
+                    <p>Total Projects</p>
+                </div>
+                <div class="stat-card">
+                    <h3>35+</h3>
+                    <p>Completed Projects</p>
+                </div>
+                <div class="stat-card">
+                    <h3>15+</h3>
+                    <p>Ongoing Projects</p>
+                </div>
+                <div class="stat-card">
+                    <h3>10,000+</h3>
+                    <p>Units Delivered</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h4>Help Desk</h4>
+                    <ul>
+                        <li><a href="#">Loan EMI Calculator</a></li>
+                        <li><a href="#">Area Converter Calculator</a></li>
+                        <li><a href="#">Buyers Guide</a></li>
+                        <li><a href="#">About Nashik City</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Projects</h4>
+                    <ul>
+                        <li><a href="#">Genesis</a></li>
+                        <li><a href="#">Your Construction Bliss</a></li>
+                        <li><a href="#">Your Construction Imperial</a></li>
+                        <li><a href="#">Your Construction Sapphire</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Main Links</h4>
+                    <ul>
+                        <li><a href="#">Home Page</a></li>
+                        <li><a href="#">About Your Construction Constructions</a></li>
+                        <li><a href="#">Enquiry Form</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Your Construction Constructions | All rights reserved</p>
+                <p>Designed by <span class="designer">LBM Infotech</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function filterProjects(category) {
+            const ongoing = document.getElementById('ongoing');
+            const completed = document.getElementById('completed');
+            const buttons = document.querySelectorAll('.tab-button');
+
+            buttons.forEach(btn => btn.classList.remove('active'));
+            event.target.classList.add('active');
+
+            if (category === 'all') {
+                ongoing.style.display = 'block';
+                completed.style.display = 'block';
+            } else if (category === 'ongoing') {
+                ongoing.style.display = 'block';
+                completed.style.display = 'none';
+            } else if (category === 'completed') {
+                ongoing.style.display = 'none';
+                completed.style.display = 'block';
+            }
+        }
+    </script>
+</body>
+</html>
